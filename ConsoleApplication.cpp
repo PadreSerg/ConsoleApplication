@@ -9,6 +9,11 @@ void printHello()
     std::cout << "Hello Couch!\n";
 }
 
+void printint(int toprint)
+{
+    std::cout << toprint << "\n";
+}
+
 // точка входа
 int main()
 {
@@ -20,6 +25,7 @@ int main()
     {
         printHello();
     }
+    printint(n);
     //std::cout << "Hello World!\n";
 }
 
